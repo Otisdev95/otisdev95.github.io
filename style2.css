@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: gainsboro;
+    font-family: arial;
+    padding-top: 50px;
+}
+
+.container{
+    background-color: white;
+    color: gray;
+    padding: 25px 20px 25px 20px;
+    width: 450px;
+    height: 300px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.email{
+    width: 440px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    color: gray;
+    border-color: gray;
+}
+
+.firstname{
+    width: 440px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    border-color: gray;
+}
+
+.lastname{
+    width: 440px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    border-color: gray;
+}
+
+.button{
+    width: 140px;
+    height: 40px;
+    font-size: 15px;
+    color: white;
+    background-color: gray;
+    border-color: gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover{
+    transform: scale(1.01);
+    animation: forwards;
+}
